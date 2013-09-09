@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '5.0'
   s.license  = 'MPL 1.1/GPL 2.0'
-  s.dependency 'AFNetworking', '~> 1.3.0'
+  s.dependency 'AFNetworking'
   s.dependency 'JSONKit', '~> 1.4'
 
 end
